@@ -1,0 +1,7 @@
+<mujocoinclude>
+	<actuator>
+        <velocity joint='claw_free_1' kv="5e3" ctrlrange="-1 1"/>
+        <velocity joint='claw_free_2' kv="5e3" ctrlrange="-1 1"/>
+        <velocity joint='claw_free_3' kv="5e3" ctrlrange="-1 1"/>
+	</actuator>
+</mujocoinclude>

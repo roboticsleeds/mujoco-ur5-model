@@ -1,0 +1,11 @@
+<mujoco model="ridgeback_ur5_robotiq_two_finger_gripper">
+    <compiler angle="radian" />
+    <size njmax="500" nconmax="100" />
+    <include file="include/robot_assets.xml"/>
+
+    <worldbody>
+        <include file="include/robot.xml"/>
+    </worldbody>
+
+    <include file="include/acctuators.xml"/>
+</mujoco>
