@@ -1,24 +1,22 @@
 <mujocoinclude>
-    <asset>
-        <mesh name="robotiq_85_base_link_coarse" file="stl_files/robotiq_85_base_link_coarse.STL" />
-        <mesh name="inner_knuckle_coarse" file="stl_files/inner_knuckle_coarse.STL" />
-        <mesh name="inner_finger_coarse" file="stl_files/inner_finger_coarse.STL" />
-        <mesh name="outer_knuckle_coarse" file="stl_files/outer_knuckle_coarse.STL" />
-        <mesh name="outer_finger_coarse" file="stl_files/outer_finger_coarse.STL" />
-        <mesh name="body-collision" file="stl_files/body-collision.stl" />
-        <mesh name="top" file="stl_files/top.stl" />
-        <mesh name="ur5_base" file="stl_files/ur5_base.stl" />
-        <mesh name="shoulder" file="stl_files/shoulder.stl" />
-        <mesh name="upperarm" file="stl_files/upperarm.stl" />
-        <mesh name="forearm" file="stl_files/forearm.stl" />
-        <mesh name="wrist1" file="stl_files/wrist1.stl" />
-        <mesh name="wrist2" file="stl_files/wrist2.stl" />
-        <mesh name="wrist3" file="stl_files/wrist3.stl" />
-        <mesh name="base" file="stl_files/base.stl" scale="0.001 0.001 0.001" />
-        <mesh name="driver" file="stl_files/driver.stl" scale="0.001 0.001 0.001" />
-        <mesh name="coupler" file="stl_files/coupler.stl" scale="0.001 0.001 0.001" />
-        <mesh name="follower" file="stl_files/follower.stl" scale="0.001 0.001 0.001" />
-        <mesh name="pad" file="stl_files/pad.stl" scale="0.001 0.001 0.001" />
-        <mesh name="spring_link" file="stl_files/spring_link.stl" scale="0.001 0.001 0.001" />
-    </asset>
+    <mesh name="robotiq_85_base_link_coarse" file="stl_files/robotiq_85_base_link_coarse.STL" />
+    <mesh name="inner_knuckle_coarse" file="stl_files/inner_knuckle_coarse.STL" />
+    <mesh name="inner_finger_coarse" file="stl_files/inner_finger_coarse.STL" />
+    <mesh name="outer_knuckle_coarse" file="stl_files/outer_knuckle_coarse.STL" />
+    <mesh name="outer_finger_coarse" file="stl_files/outer_finger_coarse.STL" />
+    <mesh name="body-collision" file="stl_files/body-collision.stl" />
+    <mesh name="top" file="stl_files/top.stl" />
+    <mesh name="ur5_base" file="stl_files/ur5_base.stl" />
+    <mesh name="shoulder" file="stl_files/shoulder.stl" />
+    <mesh name="upperarm" file="stl_files/upperarm.stl" />
+    <mesh name="forearm" file="stl_files/forearm.stl" />
+    <mesh name="wrist1" file="stl_files/wrist1.stl" />
+    <mesh name="wrist2" file="stl_files/wrist2.stl" />
+    <mesh name="wrist3" file="stl_files/wrist3.stl" />
+    <mesh name="base" file="stl_files/base.stl" scale="0.001 0.001 0.001" />
+    <mesh name="driver" file="stl_files/driver.stl" scale="0.001 0.001 0.001" />
+    <mesh name="coupler" file="stl_files/coupler.stl" scale="0.001 0.001 0.001" />
+    <mesh name="follower" file="stl_files/follower.stl" scale="0.001 0.001 0.001" />
+    <mesh name="pad" file="stl_files/pad.stl" scale="0.001 0.001 0.001" />
+    <mesh name="spring_link" file="stl_files/spring_link.stl" scale="0.001 0.001 0.001" />
 </mujocoinclude>
