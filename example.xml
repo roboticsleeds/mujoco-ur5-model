@@ -12,5 +12,5 @@
         <include file="include/robot.xml"/>
     </worldbody>
 
-    <include file="include/acctuators.xml"/>
+    <include file="include/actuators.xml"/>
 </mujoco>
