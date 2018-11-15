@@ -14,7 +14,7 @@
             <geom type="box" name="base" mass="90" friction="0.4 0.4 0.4" size="0.2 0.2 0.01425" rgba="1.0 0. 0. 1" contype="1" conaffinity="1"/>
         </body>
 
-        <body name="shoulder_link" pos="0.28 0 0.545159" quat="0.99939078 0.0 0.0 -0.03489996">
+        <body name="shoulder_link" pos="0.28 0 0.545159" quat="0.99843958  0.00152232  0.04359283 -0.03486674">
             <inertial pos="0 0 0" mass="3.7" diaginertia="0.0102675 0.0102675 0.00666" />
             <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="shoulder" />
             <body name="upper_arm_link" pos="0 0.13585 0" quat="0.707107 0 0.707107 0">
