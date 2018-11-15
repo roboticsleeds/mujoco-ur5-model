@@ -1,0 +1,4 @@
+<mujocoinclude>
+    <material name="MatGnd" specular=".3" shininess=".3" reflectance="0.3" rgba=".5 .55 .5 1"/>
+    <material name="MatGnd2" specular=".3" shininess=".3" reflectance="0.3" rgba="0. 1. 0. 1"/>
+</mujocoinclude>
