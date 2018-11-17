@@ -2,10 +2,12 @@
 
 ![Model](images/model.png "Robot Model")
 
+This is currently a planar robot only with three joints (two slide joints and a hinge joint). 
+
 ## Developers and Contributors
 MuJoCo UR5 Model was developed by the Robotics Lab in the School of Computing at the University of Leeds. 
 - Authors: [Rafael Papallas](http://rpapallas.com), [Wisdom Agboh](https://agboh.com) 
-- Current maintainor: [Rafael Papallas](http://rpapallas.com), [Wisdom Agboh](https://agboh.com).
+- Current maintainors: [Rafael Papallas](http://rpapallas.com), [Wisdom Agboh](https://agboh.com).
 
 ## License
 This work is licensed under GNU General Public License v3.0. The full license is available [here](https://github.com/roboticsleeds/mujoco_ur5_model/blob/master/LICENSE). 
