@@ -13,17 +13,29 @@ MuJoCo UR5 Model was developed by the Robotics Lab in the School of Computing at
 This work is licensed under GNU General Public License v3.0. The full license is available [here](https://github.com/roboticsleeds/mujoco_ur5_model/blob/master/LICENSE). 
 
 ## Notes
-The current model as defined includes some custom configurations such that the arm is set to the following:
-- Base: -90 degrees
-- Shoulder -175 degrees
-- Elbow: -5 degrees
-- Wrist1: -180 degrees
-- Wrist2: -90 degrees
-- Wrist3: -180 degrees
+### Description about the robot configuration
 
-If you want to change the configuration of the robot, then we will recomend to start from the following
-original configuration of the arm and apply rotations as needed to the required bodies to match the 
-UR5 joint values:
+Since we are intended to use this robot model as a planar robot, we decided to remove 
+the arm joints and leave them as a rigid body and just add three joints on Ridgeback (x, y, theta).
+Therefore, we had to apply some rotations to the bodies themselves to match the joint configuration of
+the actual robot.
+
+The current model in this repository as defined includes some custom configurations 
+such that the arm is set to the following:
+- **Base:** -90.0 degrees
+- **Shoulder:** -175.0 degrees
+- **Elbow:** -5.0 degrees
+- **Wrist1:** -180.0 degrees
+- **Wrist2:** -90.0 degrees
+- **Wrist3:** -180.0 degrees
+
+If you want to change the configuration of the robot, then we recommend to start from the following
+original configuration of the arm (which is the home configuration of UR) and apply 
+rotations as needed to the required bodies to match the UR5 joint values shown on
+the screen. With the following configuration you should just apply the required
+rotations of each joint from the UR5 screen to the existing quaternions of the
+configuration below (multiply the current quaternion of the XML with the desired
+rotation):
 ```xml
 <body name="shoulder_link" pos="0.28 0 0.545159" quat="0.681998 0 0 -0.731354">
     <inertial pos="0 0 0" mass="3.7" diaginertia="0.0102675 0.0102675 0.00666" />
