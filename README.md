@@ -62,3 +62,8 @@ rotation):
     </body>
 </body>
 ```
+
+However, to make this easier, we wrote a simple Python script under `scripts` called
+`set_ur5_joints.py` that will ask you to provide the joint values in degrees of the
+robot as shown on the UR5 screen and the xml file you would like to modify and will
+do the appropriate calculations and convertsions to set the model quaternions correctly.
