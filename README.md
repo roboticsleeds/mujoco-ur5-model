@@ -15,8 +15,8 @@ This work is licensed under GNU General Public License v3.0. The full license is
 ## Notes
 ### Description about the robot configuration
 
-Since we are intended to use this robot model as a planar robot, we decided to remove 
-the arm joints and leave them as a rigid body and just add three joints on Ridgeback (x, y, theta).
+Since we meant to use this robot model as a planar robot, we decided to remove 
+the arm joints and just add three joints on Ridgeback (x, y, theta).
 Therefore, we had to apply some rotations to the bodies themselves to match the joint configuration of
 the actual robot.
 
