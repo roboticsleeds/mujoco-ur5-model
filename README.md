@@ -4,6 +4,13 @@
 
 This is currently a planar robot only with three joints (two slide joints and a hinge joint). 
 
+This repository includes:
+- Required STL files to represent the shown robot.
+- MuJoCo XML files to represent the robot in MuJoCo.
+- A [Python script](scripts/set_ur5_joints.py) that will convert UR5 joint values
+from degrees to MuJoCo body quaternions. An explanation about the need of this
+script is available under [here](#description-about-the-robot-configuration).
+
 ## Developers and Contributors
 MuJoCo UR5 Model was developed by the Robotics Lab in the School of Computing at the University of Leeds. 
 - Authors: [Rafael Papallas](http://rpapallas.com), [Wisdom Agboh](https://agboh.com) 
