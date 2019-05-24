@@ -12,7 +12,7 @@ from degrees to MuJoCo body quaternions. An explanation about the need of this
 script is available under [here](#description-about-the-robot-configuration).
 
 ## Developers and Contributors
-MuJoCo UR5 Model was developed by the Robotics Lab in the School of Computing at the University of Leeds. 
+MuJoCo UR5 Model was developed by the [Robot Manipulation Lab](https://artificial-intelligence.leeds.ac.uk/robot-manipulation/) in the School of Computing at the University of Leeds.
 - Authors: [Rafael Papallas](http://rpapallas.com), [Wisdom Agboh](https://agboh.com) 
 - Current maintainors: [Rafael Papallas](http://rpapallas.com), [Wisdom Agboh](https://agboh.com).
 
